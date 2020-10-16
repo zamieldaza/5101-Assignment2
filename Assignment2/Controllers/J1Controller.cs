@@ -53,6 +53,7 @@ namespace Assignment2.Controllers
             {
                 return "You must input numbers between 1 and 4";
             }
+            // Call the methods to determine the number of calories for each menu choice and add all of them to the final calorie count
             else
             {
                 calCount += burgerCount(burger) + drinkCount(drink) + sideCount(side) + dessertCount(dessert);

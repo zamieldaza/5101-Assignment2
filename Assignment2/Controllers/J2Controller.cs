@@ -28,11 +28,15 @@ namespace Assignment2.Controllers
             }
             else
             {
+                // Outer loop to go through the {m} sides of the first dice
                 for (int i = 1; i <= m; i++)
                 {
+                    // Inner loop to go through the {n} sides of the second dice
                     for (int i1 = 1; i1 <= n; i1++)
                     {
+                        // Sum of the current sides
                         int sum = i + i1;
+                        // If sum is 10 add 1 to the number of ways
                         if (sum == 10)
                         {
                             numberOfWays++;
