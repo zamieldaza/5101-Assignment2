@@ -20,6 +20,7 @@ namespace Assignment2.Controllers
         /// <returns>Total calores of the meal </returns>
         public int Menu (int burger, int drink, int side, int dessert)
         {
+
             return 0;
         }
 
